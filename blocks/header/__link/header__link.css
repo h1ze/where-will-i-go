@@ -11,4 +11,5 @@
 .header__link:hover {
   font-size: 18px;
   opacity: 0.5;
+  text-decoration: underline;
 }

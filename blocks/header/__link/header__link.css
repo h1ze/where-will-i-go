@@ -1,0 +1,14 @@
+.header__link {
+  text-decoration: none;
+  color: #010101;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+  transition: 0.5s;
+}
+
+.header__link:hover {
+  font-size: 18px;
+  opacity: 0.5;
+}

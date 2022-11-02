@@ -1,0 +1,10 @@
+.header {
+  box-sizing: border-box;
+  padding: 50px 50px;
+}
+
+@media screen and (max-width: 580px) {
+  .header {
+    padding: 50px 15px;
+  }
+}

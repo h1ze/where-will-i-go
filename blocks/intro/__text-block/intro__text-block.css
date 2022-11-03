@@ -1,0 +1,14 @@
+.intro__text-block {
+  max-width: 600px;
+  padding-left: 80px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .intro__text-block {
+    justify-self: center;
+    max-width: 400px;
+    padding-left: 40px;
+    padding-right: 15px;
+  }
+}

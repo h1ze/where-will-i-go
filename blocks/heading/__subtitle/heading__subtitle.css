@@ -1,0 +1,12 @@
+.heading__subtitle {
+  margin: 0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 550px) {
+  .heading__subtitle {
+    font-size: 24px;
+  }
+}

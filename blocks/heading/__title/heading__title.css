@@ -1,0 +1,13 @@
+.heading__title {
+  font-weight: 400;
+  font-size: 15px;
+  color: #fecda7;
+  margin: 0 0 30px;
+}
+
+@media screen and (max-width: 550px) {
+  .heading__title {
+    font-size: 12px;
+    margin: 24px;
+  }
+}

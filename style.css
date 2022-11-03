@@ -8,13 +8,13 @@
   max-width: 1280px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 375px;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 320px;
-  justify-items: center;
   align-items: center;
 }
 .intro__text-block {
   max-width: 600px;
+  padding-left: 50px;
 }
 .heading {
 }
@@ -26,12 +26,16 @@
   margin: 0 0 30px;
 }
 .heading__subtitle {
+  margin: 0;
   font-family: "Rubik", "Arial", sans-serif;
   font-weight: 900;
   font-size: 30px;
   line-height: 1.2;
 }
 .intro__image {
+  justify-self: center;
+  max-width: 330px;
+  max-height: 330px;
   width: 100%;
   object-fit: cover;
 }

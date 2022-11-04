@@ -12,6 +12,15 @@
 @import url(../blocks/header/__link/_position-right/header__link_position-right.css);
 @import url(../blocks/header/__body/header__body.css);
 
+/* Intro */
+
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/intro/__text-block/intro__text-block.css");
+@import url("../blocks/heading/heading.css");
+@import url("../blocks/heading/__title/heading__title.css");
+@import url("../blocks/heading/__subtitle/heading__subtitle.css");
+@import url("../blocks/intro/__image/intro__image.css");
+
 /* People */
 @import url(../blocks/content/__people/content__people.css);
 @import url(../blocks/people/people.css);

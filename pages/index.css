@@ -14,7 +14,7 @@
 
 /* Intro */
 
-@import url("../blocks/intro/intro.css");
+@import url("../blocks/intro/__body/intro__body.css");
 @import url("../blocks/intro/__text-block/intro__text-block.css");
 @import url("../blocks/heading/heading.css");
 @import url("../blocks/heading/__title/heading__title.css");

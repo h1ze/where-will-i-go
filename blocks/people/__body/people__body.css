@@ -1,0 +1,16 @@
+.people__body {
+  margin: 0 auto;
+  max-width: 1280px;
+  box-sizing: border-box;
+  padding: 121px 68px 166px;
+}
+@media screen and (max-width: 1024px) {
+  .people__body {
+    padding: 100px 40px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .people__body {
+    padding: 50px 30px;
+  }
+}

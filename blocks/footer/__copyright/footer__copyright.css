@@ -3,6 +3,19 @@
   font-size: 36px;
   font-weight: 600;
 }
+
+@media screen and (max-width: 1124px) {
+  .footer__copyright {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .footer__copyright {
+    font-size: 25px;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .footer__copyright {
     font-size: 20px;

@@ -12,14 +12,19 @@
   <body class="page">
     <header class="header">
       <div class="header__container">
-        <nav class="header__nav">
-          <ul class="header__menu">
-            <li><a href="" class="header__link">Мечты</a></li>
-            <li><a href="" class="header__link">Ожидания</a></li>
-            <li><a href="" class="header__link">Реальность</a></li>
-          </ul>
-          <a href="" class="header__link">Пожаловаться</a>
-        </nav>
+        <div class="header__body">
+          <div class="header__burger">
+            <span></span>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li><a href="" class="header__link">Мечты</a></li>
+              <li><a href="" class="header__link">Ожидания</a></li>
+              <li><a href="" class="header__link">Реальность</a></li>
+            </ul>
+          </nav>
+          <a href="" class="header__link header__link_position-right">Пожаловаться</a>
+        </div>
       </div>
     </header>
     <main class="content">
@@ -41,38 +46,38 @@
             <p class="people__header-subtitle">Люди</p>
             <h2 class="people__header-title">Что говорят и&nbsp;говорили люди о
               путешествиях</h2>
-            <div class="people__columns">
-                <article class="people__item item-people">
-                  <div class="item-people__content">
+            <ul class="people__columns">
+                <div class="people__item item-people">
+                  <li class="item-people__content">
                     <h4 class="item-people__title">Иван Бунин</h4>
                     <p class="item-people__text">Человека делают счастливым три
                       вещи: любовь, интересная работа и&nbsp;возможность
                       путешествовать.</p>
-                      </div>
-                </article>
-                <article class="people__item item-people">
+                      </li>
+                </div>
+                <li class="people__item item-people">
                   <div class="item-people__content">
                     <h4 class="item-people__title">Альбер Камю</h4>
                     <p class="item-people__text">Путешествие как самая великая
                       и&nbsp;серьезная наука помогает нам вновь обрести себя.</p>
                   </div>
-                </article>
-                <article class="people__item item-people">
+                </li>
+                <li class="people__item item-people">
                   <div class="item-people__content">
                     <h4 class="item-people__title">Норвежская пословица</h4>
                     <p class="item-people__text">Лишь тот, кто странствует,
                       открывает новые пути.</p>
                   </div>
-                </article>
-                <article class="people__item item-people">
+                </li>
+                <li class="people__item item-people">
                   <div class="item-people__content">
                     <h4 class="item-people__title">Мария Захарова</h4>
                     <p class="item-people__text">В&nbsp;принципе зарубежная
                       поездка&nbsp;&mdash; это серьезнейшее, ответственнейшее
                       и&nbsp;очень рискованное предприятие.</p>
                   </div>
-                </article>
-            </div>
+                </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -80,5 +85,7 @@
     <footer class="footer">
       <p class="footer__copyright">&copy;&nbsp;2022</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

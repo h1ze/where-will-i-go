@@ -1,0 +1,4 @@
+.header__link_position-right {
+  position: relative;
+  z-index: 3;
+}

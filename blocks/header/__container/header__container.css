@@ -3,16 +3,16 @@
   max-width: 1280px;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 50px 68px;
+  padding: 0 68px;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 1024px) {
   .header__container {
-     padding: 50px 40px;
+    padding: 0 40px;
   }
 }
 @media screen and (max-width: 568px) {
   .header__container {
-    padding: 50px 30px;
+    padding: 0 20px;
   }
 }

@@ -1,0 +1,17 @@
+.header__body {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+}
+@media screen and (max-width: 1024px) {
+  .header__body {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .header__body {
+    height: 50px;
+  }
+}

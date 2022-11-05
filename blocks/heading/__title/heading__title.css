@@ -8,9 +8,8 @@
   font-size: 13px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 568px) {
   .heading__title {
-    font-size: 12px;
-    margin: 24px;
+    padding: 0 0 16px;
   }
 }

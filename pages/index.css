@@ -13,7 +13,6 @@
 @import url(../blocks/header/__body/header__body.css);
 
 /* Intro */
-
 @import url("../blocks/intro/__body/intro__body.css");
 @import url("../blocks/intro/__text-block/intro__text-block.css");
 @import url("../blocks/heading/heading.css");

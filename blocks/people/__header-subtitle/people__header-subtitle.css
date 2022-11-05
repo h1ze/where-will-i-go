@@ -1,13 +1,15 @@
 .people__header-subtitle {
-  font-family: "PT Sans Narrow", "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif;
-  padding: 16px 0;
-  text-transform: uppercase;
-  color: #fecda7;
-  font-size: 13px;
+  margin: 16px 0 123px;
+  max-width: 450px;
+}
+@media screen and (max-width: 1024px) {
+  .people__header-subtitle {
+    margin: 16px 0 50px;
+  }
 }
 @media screen and (max-width: 568px) {
   .people__header-subtitle {
-    padding: 0;
+    max-width: none;
+    margin: 16px 0 30px;
   }
 }

@@ -1,20 +1,9 @@
 .people__header-title {
-  margin: 16px 0 123px;
-  font-size: 33px;
-  font-weight: 700;
-  max-width: 450px;
-  line-height: 1.2;
-  letter-spacing: 0.2px;
+  padding: 16px 0;
 }
-@media screen and (max-width: 1024px) {
-  .people__header-title {
-    margin: 16px 0 50px;
-  }
-}
+
 @media screen and (max-width: 568px) {
   .people__header-title {
-    max-width: none;
-    font-size: 23px;
-    margin: 16px 0 30px;
+    padding: 0;
   }
 }

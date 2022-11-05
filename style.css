@@ -1,14 +1,58 @@
+.places {
+}
+.places__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.place {
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
+.place__image {
+  max-width: 700px;
+  max-height: 535px;
+  width: 100%;
+  object-fit: cover;
+}
 
+.place__image_element_mountains {
+  grid-column: 2;
+  grid-row: 2;
+}
 
+.place__text {
+  background-color: #f2f2f2;
+  font-family: "Inter", "Arial", sans-serif;
+  padding: 65px;
+}
 
+.place__text_element_mountains {
+  grid-column: 1;
+  grid-row: 2;
+}
 
+.place__title {
+  margin: 0 0 180px;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+}
 
+.place__paragraph {
+  margin: 0 0 30px;
+  font-size: 13px;
+  line-height: 1.5;
+}
 
-
-
-
-
-
-
-
+.place__paragraph:last-child {
+  margin: 0;
+}

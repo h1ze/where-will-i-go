@@ -2,10 +2,8 @@
   padding-top: 40px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 568px) {
   .intro__text-block {
-    justify-self: center;
     max-width: 400px;
-    padding-right: 15px;
   }
 }

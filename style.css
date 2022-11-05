@@ -1,4 +1,5 @@
 .places {
+  background-color: #f2f2f2;
 }
 .places__list {
   margin: 0;
@@ -65,14 +66,14 @@
 }
 
 .place__text {
-  background-color: #f2f2f2;
+
   font-family: "Inter", "Arial", sans-serif;
   padding: 65px;
 }
 
 @media screen and (max-width: 1024px) {
   .place__text {
-    padding: 45px;
+    padding: 40px;
   }
 }
 
@@ -109,7 +110,11 @@
   line-height: 1.2;
   letter-spacing: 0.2px;
 }
-
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 23px;
+  }
+}
 @media screen and (max-width: 1152px) {
   .place__title {
     margin: 0 0 120px;

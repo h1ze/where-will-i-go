@@ -1,0 +1,9 @@
+.intro__heading-block {
+  flex: 0 1 auto;
+}
+
+@media screen and (max-width: 568px) {
+  .intro__heading-block {
+    padding: 0 20px;
+  }
+}

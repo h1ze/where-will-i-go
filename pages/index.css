@@ -19,6 +19,9 @@
 @import url("../blocks/heading/__title/heading__title.css");
 @import url("../blocks/heading/__subtitle/heading__subtitle.css");
 @import url("../blocks/intro/__image/intro__image.css");
+@import url(../blocks/intro/__heading-block/intro__heading-block.css);
+@import url(../blocks/intro/__image-container/intro__image-container.css);
+@import url(../blocks/intro/intro.css);
 
 /* People */
 @import url(../blocks/content/__people/content__people.css);

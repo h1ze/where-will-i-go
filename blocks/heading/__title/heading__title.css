@@ -1,10 +1,15 @@
 .heading__title {
-   font-family: "PT Sans Narrow", "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif;
-  padding: 0 0 32px;
+  font-family: "PT Sans Narrow", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 19.5% 0 16px;
   text-transform: uppercase;
   color: #fecda7;
   font-size: 13px;
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
+  .heading__title {
+  padding: 10% 0 16px;
+  }
 }
 
 @media screen and (max-width: 568px) {

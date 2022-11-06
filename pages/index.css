@@ -27,8 +27,12 @@
 @import url("../blocks/place/place.css");
 @import url("../blocks/place/__image/place__image.css");
 @import url("../blocks/place/__image/_element/place__image_element_mountains.css");
+@import url("../blocks/place/__image/_element/place__image_element_forest");
+@import url("../blocks/place/__image/_element/place__image_element_sea.css");
 @import url("../blocks/place/__text/place__text.css");
 @import url("../blocks/place/__text/_element/place__text_element_mountains.css");
+@import url("../blocks/place/__text/_element/place__text_element_forest.css");
+@import url("../blocks/place/__text/_element/place__text_element_sea.css");
 @import url("../blocks/place/__title/place__title.css");
 @import url("../blocks/place/__paragraph/place__paragraph.css");
 

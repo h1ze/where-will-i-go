@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+  .place__text_element_sea {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}

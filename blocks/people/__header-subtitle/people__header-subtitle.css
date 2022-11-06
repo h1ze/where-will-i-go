@@ -1,4 +1,5 @@
 .people__header-subtitle {
+  padding: 0;
   margin: 16px 0 123px;
   max-width: 450px;
 }

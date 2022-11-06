@@ -6,3 +6,10 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 984px) {
+  .footer {
+    max-width: none;
+    min-height: 52vh;
+  }
+}

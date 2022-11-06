@@ -22,6 +22,17 @@
 @import url(../blocks/intro/__image-container/intro__image-container.css);
 @import url(../blocks/intro/intro.css);
 
+/* Places */
+@import url("../blocks/places/places.css");
+@import url("../blocks/places/__list/places__list.css");
+@import url("../blocks/place/place.css");
+@import url("../blocks/place/__image/place__image.css");
+@import url("../blocks/place/__image/_element/place__image_element_mountains.css");
+@import url("../blocks/place/__text/place__text.css");
+@import url("../blocks/place/__text/_element/place__text_element_mountains.css");
+@import url("../blocks/place/__title/place__title.css");
+@import url("../blocks/place/__paragraph/place__paragraph.css");
+
 /* People */
 @import url(../blocks/content/__people/content__people.css);
 @import url(../blocks/people/people.css);

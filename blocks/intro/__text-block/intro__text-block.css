@@ -1,9 +1,0 @@
-.intro__text-block {
-  padding-top: 40px;
-}
-
-@media screen and (max-width: 568px) {
-  .intro__text-block {
-    max-width: 400px;
-  }
-}

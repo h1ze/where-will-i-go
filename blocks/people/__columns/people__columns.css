@@ -12,6 +12,7 @@
 @media screen and (max-width: 568px) {
   .people__columns {
     grid-template-columns: repeat(1, 1fr);
-    row-gap: 20px;
+    row-gap: 35px;
+    max-width: 80%;
   }
 }

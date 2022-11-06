@@ -5,3 +5,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 568px) {
+  .places__list {
+    padding: 35px 0 0;
+  }
+}

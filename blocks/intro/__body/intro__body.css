@@ -19,7 +19,11 @@
 }
 @media screen and (max-width: 568px) {
   .intro__body {
-    flex-direction: column;
-    padding: 80px 0 40px;
+    display: block;
+    background: url(".././../../images/intro-image.jpeg") 0 0 / cover no-repeat;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+    padding: 0 20px;
   }
 }

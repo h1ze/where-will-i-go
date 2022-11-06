@@ -4,7 +4,7 @@
   width: 27.8vw;
   height: 27.8vw;
   overflow: hidden;
-  flex:1 0 auto;
+  flex: 1 0 auto;
   margin-right: 7%;
 }
 
@@ -15,5 +15,6 @@
     object-fit: cover;
     margin: 0;
     max-width: none;
+    display: none;
   }
 }

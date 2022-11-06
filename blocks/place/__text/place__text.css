@@ -3,7 +3,7 @@
   padding: 65px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1030px) {
   .place__text {
     padding: 40px;
   }

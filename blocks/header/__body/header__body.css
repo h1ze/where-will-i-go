@@ -7,7 +7,7 @@
 }
 @media screen and (max-width: 1024px) {
   .header__body {
-    height: 80px;
+    height: 60px;
   }
 }
 @media screen and (max-width: 568px) {

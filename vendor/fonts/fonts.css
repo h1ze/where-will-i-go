@@ -26,3 +26,12 @@
   src: url("./InterTight-SemiBold.woff2") format("woff2"),
     url("./InterTight-SemiBold.woff") format("woff");
 }
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("./PTSansNarrow-Bold.woff2") format("woff2"),
+    url("./PTSansNarrow-Bold.woff") format("woff");
+}

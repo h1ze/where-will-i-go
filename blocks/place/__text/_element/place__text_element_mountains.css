@@ -1,0 +1,11 @@
+.place__text_element_mountains {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .place__text_element_mountains {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}

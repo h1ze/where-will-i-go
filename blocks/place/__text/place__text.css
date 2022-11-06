@@ -1,0 +1,16 @@
+.place__text {
+  font-family: "Inter", "Arial", sans-serif;
+  padding: 65px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    padding: 25px;
+  }
+}

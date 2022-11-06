@@ -4,3 +4,11 @@
     grid-row: 2;
   }
 }
+
+@media screen and (max-width: 568px) {
+    .place__image_element_sea {
+      grid-column: 1;
+      grid-row: 1;
+    }
+  }
+  

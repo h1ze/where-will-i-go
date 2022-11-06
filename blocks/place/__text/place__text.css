@@ -14,3 +14,10 @@
     padding: 25px;
   }
 }
+
+@media screen and (max-width: 568px) {
+  .place__text {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+}

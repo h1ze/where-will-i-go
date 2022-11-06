@@ -7,7 +7,6 @@
   letter-spacing: 0.2px;
   padding: 16px 13% 0 0;
 }
-
 @media screen and (max-width: 757px) {
   .heading__subtitle {
     font-size: 23px;
@@ -17,6 +16,6 @@
   .heading__subtitle {
     font-size: 23px;
     max-width: none;
-    padding: 16px 0 20px 0;
+    padding: 16px 0 25px 0;
   }
 }

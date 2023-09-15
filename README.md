@@ -14,6 +14,7 @@
 - Вендорные префиксы
 - Медиазапросы
 ## [**Ссылка на сайт**](https://h1ze.github.io/where-will-i-go/)
-## **Версия языка**
-html5, CSS 3.0, BEM Nested
-<img src="https://aaaaa.team/media/pages/projects/5moreminutes/2548460096-1617960411/hgiz8owlfbtdif3iekbud32onedefzarhfuriqad.png" alt="Логотип Яндекс-Практикум" width="250"/>
+
+<div align='center'> 
+  <img src="https://aaaaa.team/media/pages/projects/5moreminutes/2548460096-1617960411/hgiz8owlfbtdif3iekbud32onedefzarhfuriqad.png" alt="Логотип Яндекс-Практикум" width="250"/>
+</div>
